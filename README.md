@@ -20,7 +20,7 @@
 1. Installation avec NPM
 
 - Cloner le projet :
-   git clone https://github.com/<your-username>/nestjs-user-management.git
+   git clone https://github.com/AhlemBS/user-auth-system.git
 -  cd nestjs-user-management
 - Installer les dépendances :
    npm install
@@ -31,7 +31,7 @@
 
 2. Installation avec Docker
 
-- git clone https://github.com/<ton-utilisateur>/nestjs-user-management.git
+- git clone https://github.com/AhlemBS/user-auth-system.git
 - cd nestjs-user-management
 - docker build -t nestjs-user-management .
 - Créer un fichier .env (voir .env.example)

@@ -18,7 +18,10 @@
 -  Configurer et Utiliser Husky en pre-commit
 -  Séparation des environnement dev staging prod 
 -  Automatisation des tests avec github actions
-
+-  Stocke les clés dans des variables d'environnement pour les garder séparées du code.
+-  Actuellement le refresh token est dans la Tbale user,il sera envisageable de créer une table dédiée aux refresh tokens ou les stocker temporairement dans une base redis avec une expiration automatique.
+- Aussi ôté client, le tokens dans des cookies HttpOnly
+ 
 ## 🏗️ Améliorations d'architecture et de conception envisagées
 
 - Refactoriser les services pour réduire la duplication de code
