@@ -9,7 +9,6 @@
 -  mon approche actuelle : Contrôleur → Service → DTO, je l'ai choisi car elle est simple et rapide et necessite moins de fichiers et cela convient dans notre cas, l'approche qui est envisageable dans un cas plus complexe sera avec les entités et repositories mais j'ai vu que ça convient plus a des cas plus complexes (plus de configuartion et des fichiers)
 
 -  Prévoir d'autres stratégies d'authentification (oAuth , session , cookies)
-
 -  Utiliser des interfaces pour les services , chaque service a une interface correspondante, ce qui facilite les tests
 -  Séparer les entités de la base de données des DTOs
 -  Ajouter des logs
@@ -21,7 +20,7 @@
 -  Stocke les clés dans des variables d'environnement pour les garder séparées du code.
 -  Actuellement le refresh token est dans la Tbale user,il sera envisageable de créer une table dédiée aux refresh tokens ou les stocker temporairement dans une base redis avec une expiration automatique.
 - Aussi ôté client, le tokens dans des cookies HttpOnly
- 
+
 ## 🏗️ Améliorations d'architecture et de conception envisagées
 
 - Refactoriser les services pour réduire la duplication de code

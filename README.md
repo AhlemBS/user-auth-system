@@ -21,7 +21,7 @@
 
 - Cloner le projet :
    git clone https://github.com/AhlemBS/user-auth-system.git
--  cd nestjs-user-management
+-  cd user-auth-system
 - Installer les dépendances :
    npm install
 - Copier le fichier d'environnement :
@@ -32,10 +32,10 @@
 2. Installation avec Docker
 
 - git clone https://github.com/AhlemBS/user-auth-system.git
-- cd nestjs-user-management
-- docker build -t nestjs-user-management .
+- cd user-auth-system
+- docker build -t user-auth-system .
 - Créer un fichier .env (voir .env.example)
-- docker run -p 3000:3000 --env-file .env nestjs-user-management
+- docker run -p 3000:3000 --env-file .env user-auth-system
 L'application sera accessible à l'adresse http://localhost:3000 !
 
 
@@ -49,7 +49,7 @@ rm -rf node_modules
 rm .env
 - Supprimez le dossier du projet si nécessaire :
 cd ..
-rm -rf nestjs-user-management
+rm -rf user-auth-system
 
 2. Si vous avez utilisé Docker :
 
@@ -59,7 +59,7 @@ docker ps
 docker stop <container_id>
 docker rm <container_id>
 - Supprimez l'image Docker :
-docker rmi nestjs-user-management
+docker rmi user-auth-system
 
 ## 📚 Documentation Swagger
 
@@ -67,7 +67,7 @@ Accéder à la documentation API via Swagger :
 
 http://localhost:3000/api
 
-##  TESTER 
+##  Comment tester
 
 il y a un fichier  à la racine du prejet user-management.postman_collection.json
 vous pouvez l'importer dans postman et commencer à tester les requêtes
