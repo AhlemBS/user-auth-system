@@ -20,8 +20,10 @@
 -  Stocke les clés dans des variables d'environnement pour les garder séparées du code.
 -  Actuellement le refresh token est dans la Tbale user,il sera envisageable de créer une table dédiée aux refresh tokens ou les stocker temporairement dans une base redis avec une expiration automatique.
 - Aussi ôté client, le tokens dans des cookies HttpOnly
-
+- - Pour la gestion d'erreur je peux profiter d'exception filter de nest.js et customiser les  erreurs at ajouter un filtre global et les gérer d'une maniére plus propre
+  - 
 ## 🏗️ Améliorations d'architecture et de conception envisagées
 
 - Refactoriser les services pour réduire la duplication de code
 - Organiser les modules par domaine fonctionnel pour améliorer la maintenabilité
+- opter pour une architecture clean qui ne dépend de l'infra (orm prisme ou bd )
